@@ -12,6 +12,21 @@ Browser ──upload──▶ FastAPI ──▶ ffmpeg ──▶ Whisper ──�
    └────────────── polls GET /meetings/{id} every 3s until "done" ◀───────────┘
 ```
 
+## Screenshots
+
+**Upload a recording** — drag and drop any audio or video file; recent meetings are listed below.
+
+![Home page with upload dropzone and recent meetings](docs/screenshots/home.png)
+
+**Live progress** — the page polls the backend and steps through upload → transcribe → summarize.
+
+![Processing view showing the status stepper](docs/screenshots/processing.png)
+
+**Summary** — TL;DR, key points, action items and a timestamped transcript, with audio playback
+and Markdown export.
+
+![Meeting detail page with summary, audio player and export button](docs/screenshots/summary.png)
+
 ---
 
 ## 1. Prerequisites
