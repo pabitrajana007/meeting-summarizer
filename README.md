@@ -114,11 +114,3 @@ frontend/
 | `GET` | `/meetings/{id}/export` | Markdown download |
 | `POST` | `/meetings/{id}/retry` | Re-run a failed meeting |
 | `DELETE` | `/meetings/{id}` | Delete meeting + audio |
-
-## 7. Ideas to extend
-
-- Speaker labels ("who said what") with pyannote, or switch to AssemblyAI/Deepgram
-- Server-Sent Events instead of polling
-- "Chat with this meeting" Q&A over the transcript
-- Record directly in the browser with the MediaRecorder API
-- Deploy: frontend on Vercel, backend on Render/Railway/Fly.io (needs a persistent disk)
